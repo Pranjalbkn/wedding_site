@@ -1,0 +1,10 @@
+{
+  "stalls": [
+    { "name": "Indian Sweets", "description": "Delicious sweets like Gulab Jamun, Jalebi, and more." },
+    { "name": "South Indian Delights", "description": "Authentic South Indian cuisine including dosas and idlis." }
+  ],
+  "events": [
+    { "title": "Ceremony", "time": "5:00 PM", "location": "Main Hall" },
+    { "title": "Dinner", "time": "7:00 PM", "location": "Dining Area" }
+  ]
+}
