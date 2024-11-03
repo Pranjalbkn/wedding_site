@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8b400;
+  color: white;
+  padding: 1em;
+}
+
+h2 {
+  color: #333;
+}
+
+section {
+  padding: 1em;
+}
+
+#stalls-list, #events-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stall, .event {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+}
+
+@media (min-width: 600px) {
+  .stall, .event {
+    width: 45%;
+  }
+}
+
+@media (min-width: 900px) {
+  .stall, .event {
+    width: 30%;
+  }
+}
